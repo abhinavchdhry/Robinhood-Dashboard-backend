@@ -54,6 +54,8 @@ cached_instruments = {}
 
 # fetch order history and related metadata from the Robinhood API
 orders = Robinhood.get_instance().get_endpoint('orders')
+import pprint
+pprint.pprint(orders)
 
 # load a debug file
 # raw_json = open('debug.txt','rU').read()

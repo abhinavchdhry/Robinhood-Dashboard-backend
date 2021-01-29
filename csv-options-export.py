@@ -47,6 +47,8 @@ queued_count = 0
 # fetch order history and related metadata from the Robinhood API
 #orders = robinhood.get_endpoint('orders')
 orders = robinhood.get_endpoint('optionsOrders');
+import pprint
+pprint.pprint(orders)
 # load a debug file
 # raw_json = open('debug.txt','rU').read()
 # orders = ast.literal_eval(raw_json)

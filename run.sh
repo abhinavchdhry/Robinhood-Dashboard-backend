@@ -8,4 +8,4 @@ export RH_PASSWORD=$passwd
 
 echo Success! Password stored in environment. Moving on...
 
-python csv-export.py --start '2020-05-22T00:00:00Z' --end '2020-06-03T00:00:00Z'
+python3 get-options-data.py # --start '2020-12-22T00:00:00Z' --end '2021-01-22T00:00:00Z'
